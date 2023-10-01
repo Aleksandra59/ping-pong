@@ -45,8 +45,8 @@ window = display.set_mode((win_width, win_height))
 display.set_caption("Maze")
 window.fill((200, 255, 255))
 
-player_l = Player(30, 200, 4, 50, 150)
-player_r = Player(520, 200, 4, 50, 150)
+player_l = Player(30, 200, 4, 10, 150)
+player_r = Player(560, 200, 4, 10, 150)
 ball = GameSprite(200, 200, 4, 50, 50, "ball.png")
 
 
